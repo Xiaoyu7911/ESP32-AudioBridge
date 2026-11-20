@@ -1,0 +1,101 @@
+{
+  "records": [
+    {
+      "source_report": "WINDOWS_CLOCK_24_prefill40_m500_3600s.json",
+      "source_report_sha256": "5cfa62383d7cac905ea27094fc64a804b55ee3eea9c7eccbe40ce7285b8dc210",
+      "classification": "BENCH_MEASUREMENT",
+      "status": "PASS",
+      "requested_seconds": 3600,
+      "sent_frames": 172794017,
+      "host_audio_crc32": 3641173494,
+      "asrc": true,
+      "scope": "Windows bench only; read docs/VALIDATION.md for the boundary"
+    },
+    {
+      "source_report": "WINDOWS_LOOPBACK_24_20261026T160628Z.json",
+      "source_report_sha256": "56231408a8bdf4f916235cf60d95c90ceda489a60a6222840e048e27d08ca3c4",
+      "classification": "BENCH_MEASUREMENT",
+      "status": "PASS",
+      "requested_seconds": null,
+      "sent_frames": 288000,
+      "host_audio_crc32": 3780688035,
+      "asrc": false,
+      "scope": "Windows bench only; read docs/VALIDATION.md for the boundary"
+    },
+    {
+      "source_report": "WINDOWS_CLOCK_16_prefill40_p500_600s.json",
+      "source_report_sha256": "a4843df130c59bddb2860314d27c6cc48baf84b27132a037bd4bf7abd05f4053",
+      "classification": "BENCH_MEASUREMENT",
+      "status": "PASS",
+      "requested_seconds": 600,
+      "sent_frames": 28798879,
+      "host_audio_crc32": 3914008635,
+      "asrc": true,
+      "scope": "Windows bench only; read docs/VALIDATION.md for the boundary"
+    },
+    {
+      "source_report": "WINDOWS_AUDIO_CYCLES_16_prefill40_16_2m.json",
+      "source_report_sha256": "4fe443429f88520f16c74ec98ad6b60da7382d0e464697d8e5a36f17ab67db33",
+      "classification": "BENCH_MEASUREMENT",
+      "status": "PASS",
+      "requested_seconds": null,
+      "sent_frames": null,
+      "host_audio_crc32": null,
+      "asrc": null,
+      "scope": "Windows bench only; read docs/VALIDATION.md for the boundary"
+    },
+    {
+      "test": "Mac mono uart600",
+      "classification": "MANUAL_MAC",
+      "status": "PASS",
+      "seconds": 600,
+      "frames": 28800000,
+      "crc32": 37200236,
+      "source_report": "mac_bridge_wch_ready_20261027/results/stress_20261027T092627Z.json"
+    },
+    {
+      "test": "Mac mono wav",
+      "classification": "MANUAL_MAC",
+      "status": "PASS",
+      "seconds": 6,
+      "frames": 288000,
+      "crc32": 3780688035,
+      "source_report": "mac_bridge_wch_ready_20261027/results/wav_20261027T092500Z.json"
+    },
+    {
+      "test": "Mac mono realtime test-tone USB loopback",
+      "classification": "MANUAL_MAC",
+      "status": "PASS_MAC_COUNTERS_AND_INDEPENDENT_USB_CRC",
+      "seconds": 60,
+      "sent_frames": 2879763,
+      "consumed_frames": 2879763,
+      "audio_crc32": 2443275308,
+      "source_commit": "07837a9f968fce2188a3a933da75f7074001eb2e",
+      "asrc_changes_samples": true,
+      "source_report": "mac_bridge_lowlatency_20261027/results/capture_bh60_20261027T121602Z.json"
+    },
+    {
+      "test": "Phone compatibility",
+      "classification": "MANUAL_PHONE",
+      "status": "USER_REPORTED_PASS",
+      "confirmation_date": "2026-11-20",
+      "computers": [
+        "Windows",
+        "macOS"
+      ],
+      "phones": [
+        "iPhone 14 Pro",
+        "iPhone 17",
+        "Xiaomi 10"
+      ],
+      "sample_rate": 48000,
+      "bits": 24,
+      "channels": 1,
+      "longest_session_minutes_approx": 20,
+      "raw_logs_supplied": false,
+      "firmware_sha256_recorded": false,
+      "scope": "Owner confirmation; not twenty minutes separately measured for every combination"
+    }
+  ],
+  "raw_recordings_included": false
+}

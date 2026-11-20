@@ -1,0 +1,122 @@
+{
+  "assembled_date": "2026-11-20",
+  "main_host_commit": "07837a9f968fce2188a3a933da75f7074001eb2e",
+  "main_firmware_commit": "95b770bb526512ffd5bfbbfd236ec37b52a49c6c",
+  "main_firmware_build_inputs": {
+    "firmware/bridge/CMakeLists.txt": "74f71d7a84d1efecfa8c7b92cdc523c1c147f7f074e7e7a6184097e4148eb065",
+    "firmware/bridge/dependencies.lock": "5f1fdf866fbdb2e36b05fdbb57e92ecd0856ee74733f873dce79abb6fd5f5a4a",
+    "firmware/bridge/main/CMakeLists.txt": "2da0532396e77923edfe38687d42c63791b378f137159f5a04577b0bee00ecbe",
+    "firmware/bridge/main/idf_component.yml": "62cfd4266a6c8d395237453d8adeb3f51c8f82e507f4645e509dc7d34336d116",
+    "firmware/bridge/main/Kconfig.projbuild": "057ae3071ced959f742f483ac979d8d34c93b0b61bc1daf7c642c52aca003b92",
+    "firmware/bridge/main/main.c": "e285121d94674e9a726a2af43fe8a4a1946df0a0e93b800e7df9199e392f4e59",
+    "firmware/bridge/main/protocol.c": "00283c5ec0796947e25bdc66729828c66d969fccdc5c920e887efc31912478ad",
+    "firmware/bridge/main/protocol.h": "bae7b516eced8836e33e2405c04051920d385d6b9cc2f55595ac0147ef39a2b5",
+    "firmware/bridge/partitions.csv": "e4c9b06011d880f68d10960897aafcd7530a06c9ff68c426632a6db283cd8106",
+    "firmware/bridge/sdkconfig.24.defaults": "f961f4cdfbdca111bc2ee2c518fa7b5f4b5b142679e22e5be47824f47f1634db",
+    "firmware/bridge/sdkconfig.2m.defaults": "8387ad1a37b2c0fec20a076b1b41ea9154fdf21515d42d4bfd9ec75d228a6ecf",
+    "firmware/bridge/sdkconfig.defaults": "d6a84daa22c8e0dd8756c885dd7f44ff5ba4817728a1ed88bf3af096cced1fec",
+    "firmware/common/mic_only_descriptors.c": "ca6b8bc5830fdadcef2641da2f434f545b6d9d63b217eadd64152b4758b03d41",
+    "firmware/common/use_mic_descriptors.cmake": "748f291803a59f8cf51004d600254ad6d3bb62b8799922bd89b87cd864d3b097"
+  },
+  "mono24_images": {
+    "chip": "esp32s3",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 1,
+    "uart_baud": 2000000,
+    "buffer_ms": 64,
+    "source_commit": "95b770bb526512ffd5bfbbfd236ec37b52a49c6c",
+    "classification": "BENCH_MEASUREMENT",
+    "historical_proof": "VERIFIED_BRIDGE24_CORE1_IMAGES.json",
+    "historical_proof_sha256": "3aa202d5419225bdda8aceaba433713b7b7de82c74dcaa8722bb0d077c928ff9",
+    "images": [
+      {
+        "offset": "0x0",
+        "path": "0x0_bootloader.bin",
+        "bytes": 13632,
+        "sha256": "07854d1dbc67316bff915ae6d793e178e48c68788f312c00cb4851b467c8160f"
+      },
+      {
+        "offset": "0x10000",
+        "path": "0x10000_esp_audio_bridge.bin",
+        "bytes": 243264,
+        "sha256": "37f44bd1988f4e66a64da6b803292a333ae7d0923446e09e9928c621be13f78a"
+      },
+      {
+        "offset": "0x8000",
+        "path": "0x8000_partition-table.bin",
+        "bytes": 3072,
+        "sha256": "43fb6b007bb4fbfacb2cc0b1744fb6a02ced2ce3eadcca0fc3fd9e616d5d9600"
+      }
+    ]
+  },
+  "mono16_recovery_images": {
+    "chip": "esp32s3",
+    "sample_rate": 48000,
+    "bits": 16,
+    "channels": 1,
+    "uart_baud": 2000000,
+    "buffer_ms": 64,
+    "source_commit": "c164b14ba381a3b5b7091a9da7423c1be0f48cdf",
+    "classification": "BENCH_MEASUREMENT",
+    "historical_proof": "VERIFIED_BRIDGE16_CORE1_IMAGES.json",
+    "historical_proof_sha256": "20f4684739c671c25c5d561293bfdbb936887061702df3d4c11302cd19e1016d",
+    "images": [
+      {
+        "offset": "0x0",
+        "path": "0x0_bootloader.bin",
+        "bytes": 13632,
+        "sha256": "5dac36286fbb00d13d0f64916ed5da63eb66c2157d5fadec36afad2a51ff8521"
+      },
+      {
+        "offset": "0x10000",
+        "path": "0x10000_esp_audio_bridge.bin",
+        "bytes": 243200,
+        "sha256": "3019a92eb84b1baff60bcbde694afd0d3f2247f2281759e98243b2448e1abd44"
+      },
+      {
+        "offset": "0x8000",
+        "path": "0x8000_partition-table.bin",
+        "bytes": 3072,
+        "sha256": "43fb6b007bb4fbfacb2cc0b1744fb6a02ced2ce3eadcca0fc3fd9e616d5d9600"
+      }
+    ]
+  },
+  "stereo_reference_commit": "40c48b7b5dec9fc0c2ba8fd47767ac820c035b75",
+  "stereo_reference_images": {
+    "chip": "esp32s3",
+    "sample_rate": 48000,
+    "bits": 24,
+    "channels": 2,
+    "uart_baud": 4000000,
+    "buffer_ms": 128,
+    "source_commit": "40c48b7b5dec9fc0c2ba8fd47767ac820c035b75",
+    "classification": "BENCH_MEASUREMENT",
+    "historical_proof": "FLASH_bridge_24_4m_stereo_buf128.json",
+    "historical_proof_sha256": "c258d94fc29e23cd5f85ccad8fd241f1975b12f1fb2433c324afd4b61de8a707",
+    "images": [
+      {
+        "offset": "0x0",
+        "path": "0x0_bootloader.bin",
+        "bytes": 13632,
+        "sha256": "54084c7e2ad396cdf63a5a8355518aaf444ff61888508ee7099e0d4e2ce92242"
+      },
+      {
+        "offset": "0x10000",
+        "path": "0x10000_esp_audio_bridge.bin",
+        "bytes": 243360,
+        "sha256": "bd5a2d8e1abe75307b9527db6dd6cf5022c929392e34ce4889e28d0c0e179ec5"
+      },
+      {
+        "offset": "0x8000",
+        "path": "0x8000_partition-table.bin",
+        "bytes": 3072,
+        "sha256": "43fb6b007bb4fbfacb2cc0b1744fb6a02ced2ce3eadcca0fc3fd9e616d5d9600"
+      }
+    ]
+  },
+  "latest_development_commit": "ecf93c6f96e3a2c10c2d1c24bfcaa8bf1e0a6c64",
+  "windows_archive": "ESP32_AudioBridge_code_and_tests_20261120.zip",
+  "windows_archive_sha256": "7b06e3af4251c943eb1e5f06fe3a78aae09358d6c7a584aad1b62000c836c5d8",
+  "note": "Original firmware images, not rebuilt in this packaging session. Phone feedback is separate user evidence."
+}
