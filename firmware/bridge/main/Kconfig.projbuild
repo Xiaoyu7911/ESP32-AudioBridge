@@ -1,0 +1,14 @@
+menu "ESP Audio Bridge"
+    choice EAB_UART_SPEED
+        prompt "Fixed UART speed (sender must match)"
+        default EAB_UART_3M
+        config EAB_UART_3M
+            bool "3000000 baud"
+        config EAB_UART_2M
+            bool "2000000 baud"
+    endchoice
+    config EAB_UART_BAUD
+        int
+        default 2000000 if EAB_UART_2M
+        default 3000000
+endmenu

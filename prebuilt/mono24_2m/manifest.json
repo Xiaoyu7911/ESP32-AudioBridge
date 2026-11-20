@@ -1,0 +1,32 @@
+{
+  "chip": "esp32s3",
+  "sample_rate": 48000,
+  "bits": 24,
+  "channels": 1,
+  "uart_baud": 2000000,
+  "buffer_ms": 64,
+  "source_commit": "95b770bb526512ffd5bfbbfd236ec37b52a49c6c",
+  "classification": "BENCH_MEASUREMENT",
+  "historical_proof": "VERIFIED_BRIDGE24_CORE1_IMAGES.json",
+  "historical_proof_sha256": "3aa202d5419225bdda8aceaba433713b7b7de82c74dcaa8722bb0d077c928ff9",
+  "images": [
+    {
+      "offset": "0x0",
+      "path": "0x0_bootloader.bin",
+      "bytes": 13632,
+      "sha256": "07854d1dbc67316bff915ae6d793e178e48c68788f312c00cb4851b467c8160f"
+    },
+    {
+      "offset": "0x10000",
+      "path": "0x10000_esp_audio_bridge.bin",
+      "bytes": 243264,
+      "sha256": "37f44bd1988f4e66a64da6b803292a333ae7d0923446e09e9928c621be13f78a"
+    },
+    {
+      "offset": "0x8000",
+      "path": "0x8000_partition-table.bin",
+      "bytes": 3072,
+      "sha256": "43fb6b007bb4fbfacb2cc0b1744fb6a02ced2ce3eadcca0fc3fd9e616d5d9600"
+    }
+  ]
+}

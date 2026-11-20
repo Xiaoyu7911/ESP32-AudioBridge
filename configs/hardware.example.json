@@ -1,0 +1,31 @@
+{
+  "board_claimed": "ESP32-S3 N16R8 dual USB + CH343P; exact PCB revision unknown",
+  "serial_port": null,
+  "serial_identity": {
+    "vid": null,
+    "pid": null,
+    "serial_number": null
+  },
+  "uart_rx_gpio": null,
+  "uart_tx_gpio": null,
+  "confirmed_flash_size_bytes": null,
+  "power_review": {
+    "status": "UNVERIFIED",
+    "evidence": []
+  },
+  "target_phone": {
+    "model": null,
+    "os": null,
+    "app": null
+  },
+  "mac_target": {
+    "arch": "x86_64",
+    "os": "macOS Ventura 13",
+    "ram_gb": 8
+  },
+  "baud_candidates": [
+    2000000,
+    3000000
+  ],
+  "notes": "Do not auto-fill hardware facts from generic DevKitC documentation."
+}

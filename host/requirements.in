@@ -1,0 +1,6 @@
+# Dependency inputs. Install requirements.lock.txt for this tested checkpoint.
+# The complete development test suite includes NumPy and SoXR.
+pyserial==3.5
+sounddevice>=0.5,<1
+numpy>=1.26,<3
+soxr==1.1.0

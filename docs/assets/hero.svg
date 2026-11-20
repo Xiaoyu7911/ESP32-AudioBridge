@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="380" viewBox="0 0 1280 380" role="img" aria-labelledby="title desc">
+  <title id="title">ESP32 AudioBridge</title>
+  <desc id="desc">Desktop audio, on your phone. A wired audio bridge with a desktop, ESP32 chip and phone.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#142744"/></linearGradient>
+    <linearGradient id="accent"><stop stop-color="#38bdf8"/><stop offset="1" stop-color="#a5b4fc"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#93c5fd" stroke-opacity=".055"/></pattern>
+  </defs>
+  <rect width="1280" height="380" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="380" rx="24" fill="url(#grid)"/>
+  <circle cx="1040" cy="130" r="190" fill="#3b82f6" opacity=".06"/>
+  <circle cx="1160" cy="340" r="170" fill="#818cf8" opacity=".05"/>
+  <rect x="64" y="57" width="186" height="28" rx="14" fill="#38bdf8" fill-opacity=".1" stroke="#38bdf8" stroke-opacity=".3"/>
+  <text x="82" y="76" font-family="Arial,Helvetica,sans-serif" font-size="11" font-weight="700" letter-spacing="2" fill="#7dd3fc">WIRED. DIGITAL. YOURS.</text>
+  <text x="62" y="153" font-family="Arial,Helvetica,sans-serif" font-size="58" font-weight="700" letter-spacing="-2" fill="#f1f5f9">ESP32 AudioBridge</text>
+  <text x="65" y="202" font-family="Arial,Helvetica,sans-serif" font-size="25" fill="#b6c8df">Desktop audio, on your phone.</text>
+  <path d="M66 250h20l7-13 7 26 8-36 9 43 8-29 8 16h20l9-7h41" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="65" y="319" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="1" fill="#91a7c3">48 kHz / 24-bit</text>
+  <text x="225" y="319" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#91a7c3">Windows + macOS</text>
+  <text x="412" y="319" font-family="Arial,Helvetica,sans-serif" font-size="13" fill="#91a7c3">iPhone + Android</text>
+  <g fill="none" stroke="#7dd3fc" stroke-width="2">
+    <rect x="789" y="151" width="110" height="73" rx="7" fill="#0e2139"/>
+    <path d="M826 225v17m-18 0h54"/>
+    <path d="M807 188h13l5-14 6 27 7-34 7 40 6-24 6 5h22" stroke="url(#accent)"/>
+    <path d="M911 188h38" stroke-dasharray="3 6"/>
+    <rect x="962" y="157" width="70" height="66" rx="9" fill="#142d4d"/>
+    <path d="M975 147v10m15-10v10m15-10v10m15-10v10m-45 66v10m15-10v10m15-10v10m15-10v10m-68-63h10m-10 15h10m-10 15h10m70-30h10m-10 15h10m-10 15h10" stroke-opacity=".65"/>
+    <path d="M1046 188h38" stroke-dasharray="3 6"/>
+    <rect x="1096" y="131" width="63" height="116" rx="12" fill="#0e2139"/>
+    <path d="M1117 141h21m-20 96h19" stroke-opacity=".65"/>
+    <path d="M1110 188h7l5-14 6 27 6-29 6 16h7" stroke="url(#accent)"/>
+  </g>
+  <text x="997" y="195" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700" fill="#dbeafe" text-anchor="middle">ESP32</text>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="11" fill="#91a7c3" text-anchor="middle" letter-spacing="1">
+    <text x="844" y="275">DESKTOP</text><text x="997" y="275">BRIDGE</text><text x="1128" y="275">PHONE</text>
+  </g>
+</svg>
